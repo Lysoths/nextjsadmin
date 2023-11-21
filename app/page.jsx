@@ -1,13 +1,5 @@
-import Link from "next/link";
-
-const HomePage = () => {
-  return (
-    <div>
-      <Link className="link" href="/dashboard">
-        Click Me
-      </Link>
-    </div>
-  );
+const Page = () => {
+  return <div>Page</div>;
 };
 
-export default HomePage;
+export default Page;
